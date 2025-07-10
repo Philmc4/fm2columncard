@@ -1,0 +1,33 @@
+@media (max-width: 950px) {
+  body {
+    padding: 100px 0;
+  }
+  .main-container {
+    flex-direction: column;
+    height: 1326px;
+    width: 500px;
+    align-items: center;
+  }
+  .card-1 {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .card-3 {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0px;
+  }
+}
+
+@media (max-width: 380px) {
+  body {
+    padding: 50px 0;
+  }
+  .main-container {
+    flex-direction: column;
+    height: 1326px;
+    width: 327px;
+    align-items: center;
+  }
+}

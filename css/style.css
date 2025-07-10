@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.lexend-deca-font {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.big-shoulders-font {
+  font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-1 {
+  font-family: "Big Shoulders", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: auto;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+.text-2 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 0.75;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  width: 921px;
+  border-radius: 8px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  height: 500px;
+  width: 307px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 4rem 2rem 2rem;
+}
+
+.card-1 {
+  background-color: #e28625;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.card-2 {
+  background-color: #006971;
+}
+
+.card-3 {
+  background-color: #004140;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.card-icon {
+  width: 64px;
+  height: 40px;
+}
+
+.btn-1,
+.btn-2,
+.btn-3 {
+  width: 146px;
+  height: 48px;
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 25px;
+  text-decoration: none;
+  border: 2px solid white;
+}
+
+.btn-1 {
+  color: #e28625;
+}
+.btn-2 {
+  color: #006971;
+}
+.btn-3 {
+  color: #004140;
+}
+
+.btn-1:hover,
+.btn-2:hover,
+.btn-3:hover {
+  color: white;
+  background-color: transparent;
+}
